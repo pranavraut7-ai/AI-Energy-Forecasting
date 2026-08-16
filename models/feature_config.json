@@ -1,0 +1,13 @@
+{
+    "target_column": "demand_mw",
+    "feature_columns": [
+        "hour",
+        "day_of_week",
+        "month",
+        "is_weekend",
+        "lag_1h",
+        "lag_24h",
+        "lag_168h",
+        "rolling_mean_24h"
+    ]
+}
