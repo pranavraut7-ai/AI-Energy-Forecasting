@@ -195,32 +195,29 @@ The prediction is generated directly through the persisted Random Forest forecas
 
 ## 🏗️ Project Structure
 
-```text
-AI-Energy-Forecasting/
-│
-├── data/
-│   ├── energy_features.csv
-│   ├── energy_hourly.csv
-│   └── final_predictions.csv
-│
-├── models/
-│   ├── energy_forecasting_model.pkl
-│   └── feature_config.json
-│
-├── src/
-│   ├── baseline_model.py
-│   ├── evaluate_model.py
-│   ├── feature_engineering.py
-│   ├── feature_importance.py
-│   ├── ml_model.py
-│   ├── predict.py
-│   ├── prepare_dataset.py
-│   ├── save_model.py
-│   ├── split_dataset.py
-│   ├── tuned_model.py
-│   ├── validate_dataset.py
-│   └── validate_features.py
-│
-├── app.py
-├── requirements.txt
-└── .gitignore
+- `data/`
+  - `energy_features.csv`
+  - `energy_hourly.csv`
+  - `final_predictions.csv`
+
+- `models/`
+  - `energy_forecasting_model.pkl`
+  - `feature_config.json`
+
+- `src/`
+  - `baseline_model.py`
+  - `evaluate_model.py`
+  - `feature_engineering.py`
+  - `feature_importance.py`
+  - `ml_model.py`
+  - `predict.py`
+  - `prepare_dataset.py`
+  - `save_model.py`
+  - `split_dataset.py`
+  - `tuned_model.py`
+  - `validate_dataset.py`
+  - `validate_features.py`
+
+- `app.py`
+- `requirements.txt`
+- `.gitignore`
