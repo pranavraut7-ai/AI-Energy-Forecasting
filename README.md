@@ -67,7 +67,7 @@ The preparation stage includes:
 
 - Loading the energy dataset.
 - Validating the available observations.
-- Handling the time-series structure.
+- Preserving the time-series structure.
 - Preparing the target variable.
 - Organizing the data for feature engineering.
 
@@ -166,10 +166,11 @@ The project includes a Streamlit-based application that provides an interactive 
 
 The application connects the trained forecasting model with the prediction engine so that users can provide input conditions and obtain an energy-demand forecast.
 
-The application is launched through:
+To launch the application, run:
 
-```bash
-streamlit run app.py
+`streamlit run app.py`
+
+---
 
 ## 🗂️ Project Structure
 
@@ -230,7 +231,124 @@ The project is organized into separate components for data, trained models, mach
 
 ## 📦 Installation
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
-```bash
-git clone https://github.com/pranavraut7-ai/AI-Energy-Forecasting.git
+`git clone https://github.com/pranavraut7-ai/AI-Energy-Forecasting.git`
+
+### 2. Navigate to the Project Directory
+
+`cd AI-Energy-Forecasting`
+
+### 3. Create a Virtual Environment
+
+`python -m venv .venv`
+
+### 4. Activate the Virtual Environment
+
+On Windows PowerShell:
+
+`.venv\Scripts\Activate.ps1`
+
+### 5. Install Dependencies
+
+`pip install -r requirements.txt`
+
+---
+
+## ▶️ Running the Project
+
+After installing the dependencies and activating the virtual environment, launch the interactive forecasting application using:
+
+`streamlit run app.py`
+
+The Streamlit interface allows the user to enter the required forecasting conditions and generate an energy-demand prediction.
+
+---
+
+## 🔬 Complete Project Workflow
+
+**Data Validation**  
+→ **Data Preparation**  
+→ **Feature Engineering**  
+→ **Feature Validation**  
+→ **Chronological Data Split**  
+→ **Baseline Evaluation**  
+→ **Random Forest Training**  
+→ **Feature Importance Analysis**  
+→ **Model Evaluation**  
+→ **Model Persistence**  
+→ **Prediction**  
+→ **Streamlit Application**
+
+---
+
+## 📈 Key Outcomes
+
+This project demonstrates an end-to-end applied machine learning workflow for energy-demand forecasting.
+
+Key outcomes include:
+
+- Time-series aware data preparation.
+- Calendar and historical-demand feature engineering.
+- Chronological model validation.
+- Baseline-to-machine-learning comparison.
+- Random Forest regression for demand forecasting.
+- Feature importance analysis for model interpretability.
+- Persistent trained model for reusable predictions.
+- Interactive Streamlit forecasting interface.
+- Structured and modular Python implementation.
+
+---
+
+## 💡 Practical Relevance
+
+Energy-demand forecasting is an important component of modern power-system planning and smart-grid analytics.
+
+A forecasting system can support applications such as:
+
+- Load planning.
+- Demand monitoring.
+- Resource scheduling.
+- Grid operational planning.
+- Energy management.
+- Forecast-driven decision support.
+
+This project provides a machine-learning implementation of the forecasting workflow using historical demand patterns and engineered temporal features.
+
+---
+
+## 🚀 Future Scope
+
+The current system provides a machine-learning forecasting foundation. Potential future improvements could include:
+
+- Comparing multiple forecasting algorithms.
+- Hyperparameter optimization and model comparison.
+- Extended multi-step forecasting.
+- Integration with live energy-demand data.
+- Advanced time-series models.
+- Forecast visualization and historical trend analysis.
+- Deployment as a production-ready forecasting service.
+
+These are considered future extensions and are not part of the current implementation.
+
+---
+
+## 📁 Repository
+
+**GitHub:**  
+`https://github.com/pranavraut7-ai/AI-Energy-Forecasting`
+
+---
+
+## 👨‍💻 Author
+
+**Pranav Raut**
+
+AI & Engineering Projects  
+GitHub: `pranavraut7-ai`
+
+---
+
+## 📄 License
+
+This project is intended for educational, portfolio, and demonstration purposes.
